@@ -26,3 +26,5 @@ spec:
                 name: notification-configmap
             - secretRef:
                 name: notification-secret
+      imagePullSecrets:
+      - name: dhsecret

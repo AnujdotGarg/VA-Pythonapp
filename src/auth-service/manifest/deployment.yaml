@@ -28,3 +28,5 @@ spec:
                 name: auth-configmap
             - secretRef:
                 name: auth-secret
+      imagePullSecrets:
+      - name: dhsecret

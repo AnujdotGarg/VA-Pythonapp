@@ -26,3 +26,5 @@ spec:
                 name: converter-configmap
             - secretRef:
                 name: converter-secret
+      imagePullSecrets:
+      - name: dhsecret
